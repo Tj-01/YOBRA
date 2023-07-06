@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: wavy;
+    font-weight: 600;
+}
+#navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: dashed;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .3s;
+}
+#navbar a:hover,
+#navbar a.active{
+    color: blue;
+}
+.home-content{
+    background-color: orangered;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 200px;
+}
+.home-content h2,h5{
+    color: #000;
+}
+#box{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#box-section{
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+    margin: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 200px;
+}
+#box-section img{
+    margin-right: 40px;
+}
+#box-section p{
+    color: white;
+}
+#gif{
+    background-color: olivedrab;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#choosehousetype{
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#house-content{
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#rooms{
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#rooms-content h3 p{
+    color: #000;
+    font-weight: 300;
+}
+#colors{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#colors-content h3 p{
+    color: yellow;
+    font-weight: 300;
+}
+#footer{
+    background-color: gray;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
